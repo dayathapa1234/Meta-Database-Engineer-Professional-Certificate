@@ -20,7 +20,7 @@ Flat files databases were used during the 1970s-1990s. This is a type of databas
 
 Below is an example of what a flat file database looks like. This text file stores lines of data, where each line represents a record. The fields OrderID, CustomerID and OrderDate are separated by commas.
 
-<img src="flat.png">
+<img src="img/flat.png">
 
 ### Hierarchical database systems
 Hierarchical database systems that were in use during the same era store data in a hierarchically arranged manner. 
@@ -49,7 +49,7 @@ And there are four courses:
 
 Student and Course are the entity types. John takes C# and Anil takes both Python and Java. Rohan takes Perl.
 
-<img src="Hierarchical.png">
+<img src="img/Hierarchical.png">
 
 ### Network databases
 Network databases were introduced by Charles Bachmann. Unlike the hierarchical database model, a network database allows multiple parent and child relationships. In other words, many-to many relationships. In network database terminology, a child record is known as a member. A member or child can be reached through more than one parent, which is called an owner. 
@@ -58,7 +58,7 @@ A network database has a graph-like structure, and it allows you to represent mo
 
 Here's an example of a network database. A teacher can teach multiple courses and a course can have multiple teachers teaching it.
 
-<img src="Network.png">
+<img src="img/Network.png">
 
 In this era, a language known as the SEQUEL query language was used to work with databases. Later on, with relational databases, this developed into SQL (Structured Query Language) which was made a standard query language to work with databases by the American National Standards Institute once relational database systems were introduced.   
 
