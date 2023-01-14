@@ -62,7 +62,7 @@ In addition to the charts introduced earlier in this reading, there are other ty
 - and scatter plot charts. 
 
 
-What chart do I choose to present my data?  
+### What chart do I choose to present my data?  
 Some charts can serve multiple purposes, whereas others are much better at conveying specific types of information to the audience. Line charts, for example, are best used to identify trends that help predict the future. Pie charts are a simple way to show how various parts create a whole. They are also quite easy to build. However, it’s difficult to add a percentage to each slide if there are many slices or if the slices are not exactly a half, or a quarter or a third of the whole. 
 
 The answer to the question depends on several factors including:
