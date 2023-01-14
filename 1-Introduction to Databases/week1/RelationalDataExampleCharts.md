@@ -11,7 +11,7 @@ A bar chart is a graph that presents categorical data with rectangular bars, whe
 For example, the owner of a bookshop in London has had many challenges during the COVID-19 lockdown and wants to know more about their business performance and progress each year from 2019. A bar chart could be very useful in this case to show how sales revenue has changed over the past few years and how the pandemic impacted the business during lockdown.
 
 
-<img src="bar.png">
+<img src="img/bar.png">
 
 This chart uses bars to present the bookshop’s sales data between 2019 and 2022. The x-axis presents the individual years, while the y-axis presents the value of sales. The bars illustrate the sales achieved each year. The taller the bar, the greater the value of sales. In this case, the tallest bar is in 2018, which indicates that this was the most successful year for the business. The smallest bar is in 2022, which indicates that this was the worst year for sales.
 
@@ -22,7 +22,7 @@ A Bubble chart is another popular type of data chart. It shows how different val
 Let's examine the bubble chart below, which presents information about the 10 largest countries in the world in terms of population in 2015.  
 
 
-<img src="bubble.png">
+<img src="img/bubble.png">
 
 In this example, a country's population value determines the size of each country’s bubble. 
 
@@ -39,7 +39,7 @@ The chart below depicts a company's gold price over the past month. There is a l
 This kind of chart is commonly used by data analysts to predict the future of the market based on overall trends. 
 
 
-<img src="line.png">
+<img src="img/line.png">
 
 ### Pie Chart
 A pie chart is another type of data chart that displays how various data make up a whole of 100 percent. In this type of chart, each data point is allocated a "slice" of the pie according to its value. 
@@ -47,7 +47,7 @@ A pie chart is another type of data chart that displays how various data make up
 The following “Sports pie chart” depicts the type of sport preferred by students in a class.
 
 
-<img src="pie.png">
+<img src="img/pie.png">
 
 If you ask someone looking at this chart about the percentage of students who like soccer, their answer will be 50%, as it is the slice's size that helps them to identify the percentage. In this case, “Soccer” occupies half of the pie and, therefore, it is 50% of the whole. Whereas “Tennis” and “Swimming” represent the other half of the whole pie. Since they are equals, each of them is a quarter of the pie, which is 25% of the whole. 
 
