@@ -35,6 +35,7 @@ CREATE DATABASE cm_devices;
 2. Click enter to execute the create database statement. 
 <br>
 3. Make sure you select the database you want to create the table inside of by typing the following SQL statement: 
+
  ```SQL
 USE cm_devices;
  ```
