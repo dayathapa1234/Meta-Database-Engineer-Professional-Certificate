@@ -25,16 +25,16 @@ Please attempt the tasks below before you continue so you can check and compare 
 
 ### Task 1: Create a database called cm_devices
 <br>
-1.Type the following SQL statement inside the SQL terminal editor in Coursera platform.
+1. Type the following SQL statement inside the SQL terminal editor in Coursera platform.
 CREATE DATABASE cm_devices; 
 <br>
 
-2.Click enter to execute the create database statement. 
+2. Click enter to execute the create database statement. 
 <br>
-3.Make sure you select the database you want to create the table inside of by typing the following SQL statement: 
+3. Make sure you select the database you want to create the table inside of by typing the following SQL statement: 
 USE cm_devices; 
 <br>
-4.The SQL ‘USE’ keyword is used to select a database in MySQL followed by the name of the database. Click enter to execute the query. The output will be “Database changed”, as demonstrated in the following screenshot: 
+4. The SQL ‘USE’ keyword is used to select a database in MySQL followed by the name of the database. Click enter to execute the query. The output will be “Database changed”, as demonstrated in the following screenshot: 
 <br>
 
 ![Using database](WorkingWithNumbersImages/Picture2.png)
@@ -108,8 +108,8 @@ Solution
    Total cost Decimal 
 <br>
 3. SQL Code
+4. 
  ```SQL
-
 CREATE TABLE stock(deviceID int, quantity int, totalCost decimal);
 ```
 
