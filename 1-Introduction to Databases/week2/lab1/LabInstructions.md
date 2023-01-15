@@ -24,6 +24,7 @@ Note: You are required to complete this exercise inside MySQL on the Coursera pl
 Please attempt the tasks below before you continue so you can check and compare your answers with the solution.
 
 ### Task 1: Create a database called cm_devices
+
 <br>
 
 1. Type the following SQL statement inside the SQL terminal editor in Coursera platform.
@@ -34,6 +35,7 @@ CREATE DATABASE cm_devices;
 
 2. Click enter to execute the create database statement. 
 <br>
+
 3. Make sure you select the database you want to create the table inside of by typing the following SQL statement: 
 
 ```SQL
@@ -53,25 +55,25 @@ USE cm_devices;
 <br>
 2.	Identify the data type for each column within the table. 
 Based on CM Mobiles’ requirements, the mobile devices table must contain three columns as follows: 
-* A column called “Device ID” which must store whole numbers. In this case you should use INT as the data type.
-* A second column called “Device name” which is expected to store data as a string-like alphanumeric value. For example, iPhone XR 1.
-* And a third column called “Price”. This final column is expected to store numeric data with possible fractional values. In this case you should use DECIMAL data type. With the decimal data type, there is no issue with storing a whole number because the fractional part is separated by a decimal point with 00 on the right side of the number. This is indicated in the third row of the mobile devices table, where the price is 1050.00 (which is equivalent to 1050).
+ - A column called “Device ID” which must store whole numbers. In this case you should use INT as the data type.
+ - A second column called “Device name” which is expected to store data as a string-like alphanumeric value. For example, iPhone XR 1.
+ - And a third column called “Price”. This final column is expected to store numeric data with possible fractional values. In this case you should use DECIMAL data type. With the decimal data type, there is no issue with storing a whole number because the fractional part is separated by a decimal point with 00 on the right side of the number. This is indicated in the third row of the mobile devices table, where the price is 1050.00 (which is equivalent to 1050).
 <br>
 
-3.Write a complete SQL statement to create the mobile devices table inside the cm_devices database.
+3. Write a complete SQL statement to create the mobile devices table inside the cm_devices database.
 <br>
 
-3.1	Write the SQL statement that contains the CREATE TABLE command followed by the name of the table which is “devices” in this case.
+3. 1.	Write the SQL statement that contains the CREATE TABLE command followed by the name of the table which is “devices” in this case.
 <br>
-3.2	Open parenthesis to define the table columns including device ID, device name and device number.
+3. 2. 	Open parenthesis to define the table columns including device ID, device name and device number.
 <br>
-3.4	Define a suitable datatype for each column as follows:
-* The column device ID with integer datatype.
-* The price column with decimal datatype.
-* The device name with VARCHAR. 
+3. 3.	Define a suitable datatype for each column as follows:
+   - The column device ID with integer datatype.
+   - The price column with decimal datatype.
+   - The device name with VARCHAR. 
 <br>
 
-3.5 Add a closing parenthesis and a semi-colon at the end of the SQL statement. The complete statement should replicate the following syntax:
+3. 4. Add a closing parenthesis and a semi-colon at the end of the SQL statement. The complete statement should replicate the following syntax:
 
 ```SQL
 CREATE TABLE devices( deviceID int, deviceName varchar(50), price decimal);
