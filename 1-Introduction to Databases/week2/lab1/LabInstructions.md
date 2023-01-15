@@ -108,11 +108,11 @@ Based on the table above complete the following:
 Solution
 <br>
 1. table name: stock
-<br>
+
 2. Device id INT
    Quantity INT
    Total cost Decimal 
-<br>
+
 3. SQL Code
 
 ```SQL
