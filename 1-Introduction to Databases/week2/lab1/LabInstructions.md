@@ -108,7 +108,7 @@ Solution
    Total cost Decimal 
 <br>
 3. SQL Code
-4. 
+
  ```SQL
 CREATE TABLE stock(deviceID int, quantity int, totalCost decimal);
 ```
