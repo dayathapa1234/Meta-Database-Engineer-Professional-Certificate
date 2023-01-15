@@ -54,7 +54,7 @@ USE cm_devices;
 
 2.	Identify the data type for each column within the table. 
 
- Based on CM Mobiles’ requirements, the mobile devices table must contain three columns as follows: 
+   Based on CM Mobiles’ requirements, the mobile devices table must contain three columns as follows: 
 
  - A column called “Device ID” which must store whole numbers. In this case you should use INT as the data type.
  - A second column called “Device name” which is expected to store data as a string-like alphanumeric value. For example, iPhone XR 1.
