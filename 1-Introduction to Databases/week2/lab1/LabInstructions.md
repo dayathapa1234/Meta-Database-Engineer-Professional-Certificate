@@ -27,7 +27,7 @@ Please attempt the tasks below before you continue so you can check and compare 
 <br>
 
 1. Type the following SQL statement inside the SQL terminal editor in Coursera platform.
- ```SQL
+```SQL
 CREATE DATABASE cm_devices; 
  ```
 <br>
@@ -36,7 +36,7 @@ CREATE DATABASE cm_devices;
 <br>
 3. Make sure you select the database you want to create the table inside of by typing the following SQL statement: 
 
- ```SQL
+```SQL
 USE cm_devices;
  ```
 <br>
