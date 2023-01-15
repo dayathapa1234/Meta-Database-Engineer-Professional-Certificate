@@ -9,6 +9,7 @@
 
 The goal of this exercise is for you to learn how to work with numerical values in a database. The objective of the exercise is that you will be able to demonstrate how to work with numerical data types in SQL. In this exercise you will learn about two main variations of numeric data types. 
 Scenario
+
 Mr. Carl Merkel owns a small business named CM Mobiles that sells mobile devices. He wants to create a database to store key information about mobile devices. This information includes: 
 * the device ID or number, 
 * the devices name,
@@ -25,31 +26,29 @@ Please attempt the tasks below before you continue so you can check and compare 
 
 ### Task 1: Create a database called cm_devices
 
-<br>
+
 
 1. Type the following SQL statement inside the SQL terminal editor in Coursera platform.
 ```SQL
 CREATE DATABASE cm_devices; 
  ```
-<br>
 
 2. Click enter to execute the create database statement. 
-<br>
 
 3. Make sure you select the database you want to create the table inside of by typing the following SQL statement: 
 
 ```SQL
 USE cm_devices;
  ```
-<br>
+
 4. The SQL ‘USE’ keyword is used to select a database in MySQL followed by the name of the database. Click enter to execute the query. The output will be “Database changed”, as demonstrated in the following screenshot: 
-<br>
+
 
 ![Using database](WorkingWithNumbersImages/Picture2.png)
 
 
 ### Task 2: Create a SQL statement with relevant attributes and data types 
-<br>
+
 
 1. Identify a suitable name for the table in which you want to store the data about mobile devices. In this case you can call the table “devices”. 
 <br>
