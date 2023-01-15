@@ -25,14 +25,19 @@ Please attempt the tasks below before you continue so you can check and compare 
 
 ### Task 1: Create a database called cm_devices
 <br>
+
 1. Type the following SQL statement inside the SQL terminal editor in Coursera platform.
+ ```SQL
 CREATE DATABASE cm_devices; 
+ ```
 <br>
 
 2. Click enter to execute the create database statement. 
 <br>
 3. Make sure you select the database you want to create the table inside of by typing the following SQL statement: 
-USE cm_devices; 
+ ```SQL
+USE cm_devices;
+ ```
 <br>
 4. The SQL ‘USE’ keyword is used to select a database in MySQL followed by the name of the database. Click enter to execute the query. The output will be “Database changed”, as demonstrated in the following screenshot: 
 <br>
@@ -43,7 +48,7 @@ USE cm_devices;
 ### Task 2: Create a SQL statement with relevant attributes and data types 
 <br>
 
-1.Identify a suitable name for the table in which you want to store the data about mobile devices. In this case you can call the table “devices”. 
+1. Identify a suitable name for the table in which you want to store the data about mobile devices. In this case you can call the table “devices”. 
 <br>
 2.	Identify the data type for each column within the table. 
 Based on CM Mobiles’ requirements, the mobile devices table must contain three columns as follows: 
@@ -109,7 +114,7 @@ Solution
 <br>
 3. SQL Code
 
- ```SQL
+```SQL
 CREATE TABLE stock(deviceID int, quantity int, totalCost decimal);
 ```
 
