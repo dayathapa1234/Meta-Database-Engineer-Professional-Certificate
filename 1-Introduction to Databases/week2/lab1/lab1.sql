@@ -1,0 +1,11 @@
+mysql;
+CREATE DATABASE cm_devices; 
+USE cm_devices;
+SHOW tables;
+SHOW columns FROM devices;
+CREATE TABLE devices( deviceID int, deviceName varchar(50), price decimal);
+UPDATE INTO devices (deviceID, deviceName, price) VALUES ('1','iPhone XR 1','1500.50');
+UPDATE INTO devices (deviceID, deviceName, price) VALUES ('2','Samsung SX ','1200.50');
+UPDATE INTO devices (deviceID, deviceName, price) VALUES ('3','Nokia 730','1050.00');
+SELECT * FROM devices;
+CREATE TABLE stock(deviceID int, quantity int, totalCost decimal);
