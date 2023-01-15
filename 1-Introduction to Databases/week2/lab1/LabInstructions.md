@@ -62,29 +62,26 @@ USE cm_devices;
 
 
 3. Write a complete SQL statement to create the mobile devices table inside the cm_devices database.
-<br>
 
-3. 1.	Write the SQL statement that contains the CREATE TABLE command followed by the name of the table which is “devices” in this case.
-<br>
-3. 2. 	Open parenthesis to define the table columns including device ID, device name and device number.
-<br>
-3. 3.	Define a suitable datatype for each column as follows:
+1.	Write the SQL statement that contains the CREATE TABLE command followed by the name of the table which is “devices” in this case.
+
+2. 	Open parenthesis to define the table columns including device ID, device name and device number.
+
+3.	Define a suitable datatype for each column as follows:
    - The column device ID with integer datatype.
    - The price column with decimal datatype.
    - The device name with VARCHAR. 
-<br>
 
-3. 4. Add a closing parenthesis and a semi-colon at the end of the SQL statement. The complete statement should replicate the following syntax:
+ 4. Add a closing parenthesis and a semi-colon at the end of the SQL statement. The complete statement should replicate the following syntax:
 
 ```SQL
 CREATE TABLE devices( deviceID int, deviceName varchar(50), price decimal);
 ```
 
-<br>
-3.6	Execute the query by clicking enter. 
+ 5.	Execute the query by clicking enter. 
 If you have followed all the steps correctly, you should now be able to access the devices table that was created inside the cm_mobiles database by typing:
 show tables; 
-3.7	Click enter. 
+ 6.	Click enter. 
 
 ![Tables in the database](WorkingWithNumbersImages/Picture3.png)
 
