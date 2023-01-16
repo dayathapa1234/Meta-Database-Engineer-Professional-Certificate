@@ -47,7 +47,7 @@ Now, let’s take the invoice table columns one by one and apply the guidelines.
 
 **Note: You need to have a database to create the table inside it. If you don’t have one yet, see below how to create the CM Mobiles database.**
 
-1-Type the following SQL statement inside the SQL terminal editor on the Coursera platform.
+1. Type the following SQL statement inside the SQL terminal editor on the Coursera platform.
 
 ```SQL
 CREATE DATABASE cm_devices; 
@@ -55,9 +55,9 @@ CREATE DATABASE cm_devices;
 ```
 
 
-2-Click enter to execute the create database statement. 
+2. Click enter to execute the create database statement. 
 
-3-Make sure you select the database to use it by typing the following SQL statement and click enter. 
+3. Make sure you select the database to use it by typing the following SQL statement and click enter. 
 
 ```SQL
 Use cm_devices; 
@@ -69,20 +69,20 @@ Use cm_devices;
  
 **Create the SQL statement**
 
-1-Write an SQL statement  that contains the CREATE TABLE command followed by the name of the table, which is “invoice” in this case.  
+1. Write an SQL statement  that contains the CREATE TABLE command followed by the name of the table, which is “invoice” in this case.  
 
-2-Open parenthesis to define the tables columns including customer ID, order date, quantity and total price.  
+2. Open parenthesis to define the tables columns including customer ID, order date, quantity and total price.  
 
-3-Assign each column a suitable datatype as described earlier. 
+3. Assign each column a suitable datatype as described earlier. 
 
-4-Add a closing parenthesis and a semi-colon to the end of the SQL statement as follows:
+4. Add a closing parenthesis and a semi-colon to the end of the SQL statement as follows:
 
 ```SQL
 CREATE TABLE invoice(customerID VARCHAR(50), orderDate DATE, quantity INT, price DECIMAL);  
 
 ```
 
-5-Press enter to execute the query.
+5. Press enter to execute the query.
 
 If you have followed all the steps correctly you should now be able to see the invoice table created inside the cm_devices database by typing:
 
@@ -91,11 +91,11 @@ Show tables;
 
 ```
 
-6-Press enter to execute the query. The output result is in the image below that displays the list of tables that exist in the ‘cm devices’ database.  
+6. Press enter to execute the query. The output result is in the image below that displays the list of tables that exist in the ‘cm devices’ database.  
 
 ![List of tables](ChoosingTheRightTypeForAColumnImages/picture3.png)
 
-7-If you want to check the structure of the invoice table, type the following SQL statement and click enter.
+7. If you want to check the structure of the invoice table, type the following SQL statement and click enter.
 
 ```SQL
 Show columns from invoice; 
@@ -119,8 +119,11 @@ You must choose a relevant data type for each of these columns.
 
 
 **Solution**
+
 Account number: INTEGER
+
 Phone number: INTEGER
+
 Email: VARCHAR  
 
 
