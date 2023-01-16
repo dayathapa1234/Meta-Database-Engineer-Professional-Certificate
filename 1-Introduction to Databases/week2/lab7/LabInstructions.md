@@ -102,7 +102,7 @@ Mr. Ericson  wants to delete the record of the customer Yasmine. Your task now i
 Write the following SQL statement in the SQL terminal editor, then click enter button to execute it.
 
 ```SQL
-DELETE FROM customers WHERE customerID = 5;
+DELETE FROM customers WHERE customerID = 6;
 
 ```
 
