@@ -19,6 +19,7 @@ Please attempt the tasks below before you continue so you can check and compare 
 
 Task 1: Create a database called football club. 
 Task 2: Create a table to store the data as follows:
+
 * Identify a suitable table name to store the players’ personal data. 
 * Identify the table attributes and data types. 
 * Write an SQL statement to create the table. 
@@ -27,9 +28,9 @@ Task 2: Create a table to store the data as follows:
 
 **Task 1: Create your database**
 
-1-You cannot build tables if there is no relevant database available to create tables inside it. Therefore, let’s create a new database for Mr. Anderson’s data if you have not already created a database; you need to do so by typing the following SQL statement inside the SQL code editor in Coursera platform as displayed below. 
-2-Click enter to execute the create football club database. 
-3-Make sure you select the database to use it by typing the following SQL statement. Click enter.
+1- You cannot build tables if there is no relevant database available to create tables inside it. Therefore, let’s create a new database for Mr. Anderson’s data if you have not already created a database; you need to do so by typing the following SQL statement inside the SQL code editor in Coursera platform as displayed below. 
+2- Click enter to execute the create football club database. 
+3- Make sure you select the database to use it by typing the following SQL statement. Click enter.
 
 
 ```SQL
@@ -42,16 +43,16 @@ Use football_club;
 
 **Task 2: Create your table**
 
-1-Write an SQL statement that contains the CREATE TABLE command followed by the name of the table. Players is a suitable name in this case. 
-2-Open parenthesis to define the tables columns:  
-* Player ID
-* Player name 
-* Player age
-3-Assign each column a suitable data type. In this case, you can choose the following suitable data types:
-* player ID: INT
-* player name: VARCHAR(50)
-* player age: INT 
-4-Once all the required columns have been defined, add a closing parenthesis and a semi-colon at the end of the SQL statement as follows: 
+1- Write an SQL statement that contains the CREATE TABLE command followed by the name of the table. Players is a suitable name in this case. 
+2- Open parenthesis to define the tables columns:  
+ * Player ID
+ * Player name 
+ * Player age
+3- Assign each column a suitable data type. In this case, you can choose the following suitable data types:
+ * player ID: INT
+ * player name: VARCHAR(50)
+ * player age: INT 
+4- Once all the required columns have been defined, add a closing parenthesis and a semi-colon at the end of the SQL statement as follows: 
 
 
 ```SQL
@@ -59,7 +60,7 @@ CREATE TABLE players( playerID int, playerName varchar(50), age int);
 
 ```
 
-5-Press enter to execute the SQL statement. 
+5- Press enter to execute the SQL statement. 
 
 The image below displays the output after executing the CREATE TABLE ‘players’ statement.  
 
@@ -74,7 +75,7 @@ Show tables;
 
 ```
 
-6-Click enter and you should be able to get the players table inside the football club database as in the image below.  You may see more tables as well if you have already created other tables in this database.  
+6- Click enter and you should be able to get the players table inside the football club database as in the image below.  You may see more tables as well if you have already created other tables in this database.  
 
 ![Tables in football club database](PracticingTableCreationImages/Picture3.PNG)
 
