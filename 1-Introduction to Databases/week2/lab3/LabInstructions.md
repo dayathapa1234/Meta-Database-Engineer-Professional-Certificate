@@ -21,9 +21,9 @@ Note: You are required to complete this exercise inside MySQL on the Coursera pl
 #### Instructions
 Create an SQL statement with relevant attributes and constraints as follows:
 
-1.Identify the column that requires default values. 
+1. Identify the column that requires default values. 
 
-2.Write a complete SQL statement to create the address table with relevant constraints. 
+2. Write a complete SQL statement to create the address table with relevant constraints. 
 
 Please attempt the tasks below before you continue so you can check and compare your answers with the solution.
 
@@ -37,7 +37,7 @@ In this case, you can define a default value for the town column as “Harrow”
 
 **Note: You need to have a database to create the table inside it. If you don’t have one yet, see below how to create the CM Mobiles database.**
 
-1.Type the following SQL statement inside the SQL terminal editor on the Coursera platform.
+1. Type the following SQL statement inside the SQL terminal editor on the Coursera platform.
 
 ```SQL
 CREATE DATABASE cm_devices; 
@@ -45,9 +45,9 @@ CREATE DATABASE cm_devices;
 ```
 
 
-2.Click enter to execute the create database statement. 
+2. Click enter to execute the create database statement. 
 
-3.Make sure you select the database to use it by typing the following SQL statement and click enter. 
+3. Make sure you select the database to use it by typing the following SQL statement and click enter. 
 
 ```SQL
 Use cm_devices; 
@@ -57,21 +57,22 @@ Use cm_devices;
 ![Use database](WorkingWithDefaultValuesImanges/Picture2.png)
 
  
-4.Create a table
+4. Create a table
 
-4.1 Write the SQL CREATE TABLE command followed by the name of the table, “address” in this case. 
+ - Write the SQL CREATE TABLE command followed by the name of the table, “address” in this case. 
 
-4.2 Open parenthesis to define the table’s columns including customer ID, street, postcode and town. Each column must be assigned a suitable data type as you learned in earlier videos and exercises. 
+ - Open parenthesis to define the table’s columns including customer ID, street, postcode and town. Each column must be assigned a suitable data type as you learned in earlier videos and exercises. 
 
-4.3 Use the SQL “DEFAULT” keyword to declare the pre-set default value. 
+ - Use the SQL “DEFAULT” keyword to declare the pre-set default value. 
 
-4.4 Once all required columns have been defined, add a closing parenthesis and a semi-colon at the end of the SQL statement as follows:
+ - Once all required columns have been defined, add a closing parenthesis and a semi-colon at the end of the SQL statement as follows:
 create table address(id int not null, street varchar(255), postcode varchar(10), town varchar(30) default "Harrow");
+
 The DEFAULT keyword used in this statement is followed by the default value “Harrow” for the town name column in the Address table. In this case, if Mr. Carl Merkel wants to insert data into this table there is no need to type “Harrow” for any customer who lives in this town as it will be automatically inserted.
 
-5.Execute the query by pressing enter.
+5. Execute the query by pressing enter.
 
-6.If you want to check the structure of the address table, type the following SQL statement and click enter:
+6. If you want to check the structure of the address table, type the following SQL statement and click enter:
 
 ```SQL
 Show columns from address; 
@@ -95,7 +96,7 @@ Remember to drop the address table before creating a new one.
 
 To drop the table, simply type: 
 ```SQL
-DROP TABLE Address;. 
+DROP TABLE Address;
 
 ```
 
