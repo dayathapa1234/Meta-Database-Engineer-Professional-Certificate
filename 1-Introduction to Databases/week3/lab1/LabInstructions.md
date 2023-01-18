@@ -119,8 +119,8 @@ Test your knowledge with the following exercise. You are required to write a SQL
 ```SQL
 
 SELECT FirstName, Country FROM Customer WHERE Country = "Canada" ORDER BY FirstName;
-A screenshot of the output is shown below:
  ```
 
+A screenshot of the output is shown below:
 
 ![Output result of the select statement](OrderByAndWhereImages/Picture4.png)
