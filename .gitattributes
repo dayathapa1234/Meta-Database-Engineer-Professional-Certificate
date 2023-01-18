@@ -1,5 +1,5 @@
 *.sql linguist-detectable=true
 *.md linguist-detectable=false
-*.md linguist-documentation=true
+*.md linguist-generated=true
 README.md linguist-detectable=false
 readme.md linguist-detectable=false
