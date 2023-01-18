@@ -22,3 +22,38 @@ The conceptual or logical schema describes the structure of the entire database 
 Here’s an example of a logical schema.
 
 <img src="ExploringDatabaseSchemaImages/image1.png">
+
+This depicts the employee and department entities in the database along with their attributes and how these two entities are related to each other. This is just a simple example and there’ll be more entities in a real database.   
+
+### Internal or physical schema
+The internal or physical schema describes the physical storage of the database. It represents the entire database but at a very low level. This means it describes how the data is really stored on disk in the form of tables, columns and records. It defines what data is stored in the database and how.
+
+Here’s an example of what’s meant by an internal schema.
+
+<img src="ExploringDatabaseSchemaImages/image2.png">
+
+This example depicts how the employee table should physically store its data. A real database would have more tables and the internal schema would describe the physical representation of all those tables in the entire database.   
+
+### External or view schema
+The external or view schema describes the database like an external user would want to see it. This schema only describes the part of the database that the specific user is interested in. It hides the nonrelevant details of the database from a user. For example, a user from the sales department will see only sales-related data in a database. There can be many external schemas of a single database for different users. Examine the following example of view schema.
+
+<img src="ExploringDatabaseSchemaImages/image3.png">
+
+There are three different schemas of how three different users want to view the employee table. Though this example only includes the employee table, in the actual database there’ll be many tables, namely employee, department, job, invoice and so on. The different view schemas will have different subsets of the database. 
+
+Also, these different view schemas will have different subsets of the attributes in the tables. For example, User1’s view schemas could have employee, department and job tables. User2’s view schema could have employee, department and invoice tables. And User3’s view schemas could have all four tables. The attributes of tables that are available to these three different user view schemas could be different as well.
+
+These three levels of schema are also known as the three-schema architecture. It can be diagrammatically depicted like this.
+
+<img src="ExploringDatabaseSchemaImages/image4.png">
+
+### Why are database schemas important?
+A database schema helps database engineers to organize data into well-defined tables with relevant attributes in them. It also shows the interrelationships between tables and depicts the data types that each column must have. A well-designed database schema makes life easier for database engineers as well as developers. It helps to:
+
+  * Maintain a clean set of data in the database related to an application. 
+
+  * Avoid reverse-engineering of the underlying data model from time to time. 
+
+  * Write efficient queries to retrieve data for reporting purposes, analytics and so on. 
+
+In other words, it prevents you from ending up with a database design that requires a database engineer to do a lot of reverse-engineering down the line, wasting time and effort that leads to increased costs for organizations.
