@@ -40,10 +40,6 @@ CREATE TABLE Customer ( CustomerId INT NOT NULL, FirstName VARCHAR(40) NOT NULL,
 
 ```
 
-```SQL
-USE Chinook;
-```
-
 3- Insert the following records of data into the Customer table (Copy & Paste code in the terminal)
 
 
