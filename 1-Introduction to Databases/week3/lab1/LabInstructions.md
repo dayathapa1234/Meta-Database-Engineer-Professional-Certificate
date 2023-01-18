@@ -74,7 +74,6 @@ Please attempt the tasks below before you continue so you can check and compare 
 Before you start sorting and filtering data, let’s display some of the customer data content that already exists in the database. This can be done by writing the following SELECT statement, which retrieves all data from the customer table. 
 
 ```SQL
-
 select CustomerID, FirstName, LastName, City, State, Country from Customer;
 ```
 
@@ -90,8 +89,8 @@ You can make it easier for the users of the database to find relevant customers 
 
 ```SQL
 select CustomerID, FirstName, LastName, City, State, Country from Customer ORDER BY FirstName; 
-Notice now that all data from the customers table is displayed again. However, it’s now sorted by the "FirstName" column in alphabetical order. This makes it easier for the users of the database to find the customers they are looking for.
 ```
+Notice now that all data from the customers table is displayed again. However, it’s now sorted by the "FirstName" column in alphabetical order. This makes it easier for the users of the database to find the customers they are looking for.
 
 **Filter the result set of data**
 
