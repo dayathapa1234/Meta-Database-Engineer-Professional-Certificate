@@ -122,8 +122,8 @@ Additional task (optional)
 You are required to extend the customized chinook schema by adding a new table called “location” that shows the city and the country that the artist lives in. 
 
 Solution
-●	Add a new table called location. 
-●	Add a foreign key “locationId” to the “Artists” table to connect it with the location table.
-●	The new chinook customized schema must be similar to the following ER-diagram.
+*	Add a new table called location. 
+*	Add a foreign key “locationId” to the “Artists” table to connect it with the location table.
+*	The new chinook customized schema must be similar to the following ER-diagram.
 
-![Addition task solution diagram](DatabaseSchemaExamplesImages/Picture8.png)
+![Addition task solution diagram](DatabaseSchemaExamplesImages/Picture9.png)
