@@ -23,6 +23,7 @@ In this case, you can have three entities represented in three separate boxes:
 
   * and the department entity.
 
+<!-- _backgroundColor: red -->
 <img src="image/image15.png">
 
 There’s no point in considering entities or attributes that will not be used in your project. You should only capture data that helps the users of your database system to complete certain tasks and activities.
